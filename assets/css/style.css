@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*
+ header {
+     display: flex;
+     width: 100vw;
+     height: 100vh;
+     background-color: rgb(121, 110, 110);
+     justify-content: center;
+     align-items: center;
+ }
+ */
+/**********************************************/
+
+hr {
+    color: orangered;
+    width: 50%;
+    margin: 0 25% ;
+}
+
+h3 {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.firstcv {  
+    display: flex;
+    height: 900px;
+    width: 700px;
+    background-color:gray;
+    justify-content: left;
+}
+
+.yellowline {
+    display: inline-block;
+    height: 100%;
+    width: 35%;
+    background-color: rgb(250, 204, 0);
+    justify-content: left;
+    text-align: center;
+}
+
+.firstphoto {
+    margin-top: 25px;
+    height: 150px;
+    width: 150px;
+    object-position: center;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px groove orangered;
+}
+
+
+.adress_phone {
+    display: inline-block;
+
+}
+
+.info {
+    margin-top: 20px;
+}
+
+.info_post {
+    list-style-type: none;
+}
+
+.pos1, .pos2, .pos3, .pos4 {
+    margin-top: 20px;
+}
+
+.grayline {
+    height: 100%;
+    width: 65%;
+    text-align: center;
+}
+
+
+
+
+.firstname {
+    margin: 35px 0 20px ;
+    text-align: center;
+}
+
+.education {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.date {
+    float: left;
+    width: 40%;
+}
+
+.date_l {
+    display: block;
+    text-align: left;
+    margin: 20px 0 35px 20px;
+}
+.learning {
+    float: right;
+    width: 60%;
+}
+.learning_d {
+    margin: 18px;
+    display: block;
+}
+
+
+.dateW {
+        float: left;
+        width: 40%;
+    
+}
+
+.date_w {
+    display: block;
+    text-align: left;
+    margin: 40px 0 90px 20px;
+}
+
+.work {
+    width: 100%;
+}
+
+.working {
+    float: right;
+    width: 60%;
+    margin-top: 15px;
+}
+.working_d {
+
+    margin: 18px;
+    display: inline-block;
+}
+
+.work_list {
+    text-align: left;
+    margin-left: 50px;
+}
+
+
+
+
+
+
+
+
+/*
+
+main {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(121, 110, 110);
+    justify-content: center;
+    align-items: center;
+}
+
+*/
