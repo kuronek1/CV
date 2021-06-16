@@ -3,8 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-/*
- header {
+
+ main {
      display: flex;
      width: 100vw;
      height: 100vh;
@@ -12,8 +12,6 @@
      justify-content: center;
      align-items: center;
  }
- */
-/**********************************************/
 
 hr {
     color: orangered;
@@ -40,7 +38,6 @@ h3 {
     height: 100%;
     width: 35%;
     background-color: rgb(250, 204, 0);
-    justify-content: left;
     text-align: center;
 }
 
@@ -70,6 +67,10 @@ h3 {
 
 .pos1, .pos2, .pos3, .pos4 {
     margin-top: 20px;
+}
+
+.span_yellow {
+    display: inline-block;
 }
 
 .grayline {
@@ -143,22 +144,4 @@ h3 {
     margin-left: 50px;
 }
 
-
-
-
-
-
-
-
-/*
-
-main {
-    display: flex;
-    width: 100vw;
-    height: 100vh;
-    background-color: rgb(121, 110, 110);
-    justify-content: center;
-    align-items: center;
-}
-
-*/
+/****************************************************************/
