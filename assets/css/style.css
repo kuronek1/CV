@@ -2,21 +2,27 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
- main {
-     display: flex;
-     width: 100vw;
-     height: 100vh;
-     background-color: rgb(121, 110, 110);
-     justify-content: center;
-     align-items: center;
- }
+header {
+    background-color: rgb(121, 110, 110);
+    text-align: center;
+}
+main {
+    margin-top: -40px;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(121, 110, 110);
+    justify-content: center;
+    align-items: center;
+}
 
 hr {
     color: orangered;
     width: 50%;
-    margin: 0 25% ;
+    margin: 0 25%;
 }
 
 h3 {
@@ -25,11 +31,11 @@ h3 {
     color: white;
 }
 
-.firstcv {  
+.firstcv {
     display: flex;
     height: 900px;
     width: 700px;
-    background-color:gray;
+    background-color: gray;
     justify-content: left;
 }
 
@@ -51,10 +57,8 @@ h3 {
     border: 5px groove orangered;
 }
 
-
 .adress_phone {
     display: inline-block;
-
 }
 
 .info {
@@ -65,7 +69,10 @@ h3 {
     list-style-type: none;
 }
 
-.pos1, .pos2, .pos3, .pos4 {
+.pos1,
+.pos2,
+.pos3,
+.pos4 {
     margin-top: 20px;
 }
 
@@ -79,11 +86,8 @@ h3 {
     text-align: center;
 }
 
-
-
-
 .firstname {
-    margin: 35px 0 20px ;
+    margin: 35px 0 20px;
     text-align: center;
 }
 
@@ -111,11 +115,9 @@ h3 {
     display: block;
 }
 
-
 .dateW {
-        float: left;
-        width: 40%;
-    
+    float: left;
+    width: 40%;
 }
 
 .date_w {
@@ -134,7 +136,6 @@ h3 {
     margin-top: 15px;
 }
 .working_d {
-
     margin: 18px;
     display: inline-block;
 }
@@ -145,3 +146,114 @@ h3 {
 }
 
 /****************************************************************/
+
+.secondcv {
+    overflow-y: hidden;
+    display: block;
+    height: 900px;
+    width: 700px;
+    background-color: whitesmoke;
+}
+
+.secondcv div{
+    display: inline-block;
+}
+
+.secondline {
+    height: 100%;
+    width: 35%;
+    background-color: rgb(98, 98, 253);
+    border: 1px solid black;
+}
+
+.pre {
+    border: 5px solid rgb(214, 86, 86);
+    margin-top: -50px;
+    margin-left: -130px;
+    max-width: 200px;
+}
+.photo_exe {
+    padding: 30px 20px;
+}
+
+.photo2 {
+    margin-top: -100px;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 2px solid black;
+}
+
+.span_exe {
+    color: rgb(214, 86, 86);
+    font-style: italic;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.contact_info {
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+h5 {
+    color: rgb(214, 86, 86);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.infomark {
+    margin: 10px;
+}
+
+.mark {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.span_info {
+    display: inline-block;
+    margin: 10px;
+}
+
+.fullcontent {
+    text-align: center;
+    height: 100%;
+    width: 65%;
+    float: right;
+}
+
+.name_h1 {
+    margin: 50px;
+}
+
+.edu_second {
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgb(98, 98, 253);
+    border-top-left-radius: 150%;
+}
+.stats {
+    margin-left: 30px;
+    text-align: left;
+    color: rgb(85, 85, 85);
+    font-weight: bold;
+}   
+.stats li {
+    margin-top: 3px;
+}
+
+.date_sec {
+    font-size: 11px;
+}
+
+.learning_sec {
+    color: rgb(98, 98, 253);
+}
+.paragraff {
+    font-size: 12px;
+}
